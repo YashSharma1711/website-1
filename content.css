@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;800&display=swap');
+
+
+
+.body {
+    height: 100%;
+    font-family: 'Ruda';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-size: 10px;
+    }
+.img-fluid {
+    width:100%;
+    height:50%;
+    z-index: 0; }
+    
+    .text-over-img {
+    z-index:1;
+    font-size: 2.2rem;
+    margin-top: -0.2rem;
+    }
+.text {
+    padding-bottom: 2rem;
+}
+.bg {
+/* The image used */
+    
+    position: relative;
+    }
+    .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size:80rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
+    .text1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 2rem;
+        transform: translate(-50%, -50%);
+        color: white;   
+    }
+    .btn-outline-secondary{
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        font-size:2rem;
+        transform: translate(500%);
+        
+    }
+    .card{
+        margin-bottom: 1rem;
+        display :flex;
+    }
+    .card-text{
+        font-family: 'ruda';
+        font-weight: lighter;
+    }
+    .col-md-12{
+        font-size:1rem;
+        margin-top: 5px;
+        
+    }
+    @media(max-width:998px){
+        html{
+            font-size: 55%;
+        }
+    }
+    @media(max-width:768px){
+        html{
+            font-size: 45%;
+        }
+    }
+    /* @media(min-width:448px){
+        .btn-outline-secondary{
+            position: absolute;
+            top: 80%;
+            left: 0%;
+            
+            font-size:2rem;
+            transform: translate(500%);
+            
+        }
+    }
+     */
+    #banner1{
+        background: url(image/dark-sky1.jpeg) no-repeat center top;
+	    padding-top: 30px;
+        background-size: cover;
+	    background-position: center center;
+	    min-height: 460px;
+	    width: 100%;
+        
+        /* background-attachment:scroll;
+        background-size: contain;
+        background-position: top center; */
+        /* background-position: center center; */
+        /* background-image: url("image/dark-sky1.png") ;
+        max-width: auto;
+        background-position: center center;
+        min-height: 500px;
+        background-repeat: no-repeat; */
+        
+    }
+    #banner1-div{
+        .heading{
+            font-size: 2.6rem;
+            font-family: 'Ruda';
+            margin-top: 120px;
+            letter-spacing: 2px;
+            font-weight: 800;
+        }
+        /* margin-top: 200px; */
+        
+        .btn-light{
+            color:white;
+            border-color: #f8f9fa;
+            background-color: transparent;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+    }
+    #banner2{
+        background-image: url("image/-galaxy.png");
+        background-image: no-repeat;
+        background-position: center center;
+        min-height: 300px;
+    }
+    #banner2-div{
+        margin-top: 100px;
+        font-size: xx-small;
+        .btn-light{
+            color:white;
+            border-color: #f8f9fa;
+            background-color: transparent;
+            font-size: 15px;
+            margin-top: 20px;
+            font-family: 'Ruda';
+        }
+    }
+    .border-bottom{
+        font-size: 15px;
+        font-family: 'Ruda';
+        font-weight: 800;
+        font-weight: bolder;
+    }
+    .heading{
+        font-size: 3.5rem;
+        font-family: 'Ruda';
+    }
+    .card-group{
+        max-width: fit-content;
+    }
+    
+    
+    
